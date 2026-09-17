@@ -23,7 +23,7 @@ class Zlib < Formula
 
     on_intel do
       url "https://github.com/difyz9/zlib-go/releases/download/v0.1.3/zlib-v0.1.3-linux-amd64.tar.gz"
-      sha256 "      sha256 "cbcd4dfea34e2a40d304f9a748727ddb853cb69885821ba6b2addf02caa2a387"
+      sha256 "cbcd4dfea34e2a40d304f9a748727ddb853cb69885821ba6b2addf02caa2a387"
     end
   end
 
