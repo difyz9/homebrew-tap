@@ -1,29 +1,29 @@
 class Ytb < Formula
   desc "YouTube to Bilibili video republishing pipeline CLI"
   homepage "https://github.com/difyz9/ytb2bili-cli"
-  version "0.3.3"
+  version "0.3.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/difyz9/homebrew-tap/releases/download/v0.3.3/ytb_0.3.3_darwin_arm64.tar.gz"
-      sha256 "f0dc4446d9e566ab14611ad66db901f281127550ce8ccfaeadba160d5c9e5379"
+      url "https://github.com/difyz9/ytb2bili-cli/releases/download/v0.3.4/ytb_0.3.4_darwin_arm64.tar.gz"
+      sha256 "7be70175b4bf29d27e5bcb3e2b9576aa63c34f5109714c4a7de062ba79193146"
     end
 
     on_intel do
-      url "https://github.com/difyz9/homebrew-tap/releases/download/v0.3.3/ytb_0.3.3_darwin_amd64.tar.gz"
-      sha256 "47134fd21121d99a0a21a93d822f6b545357db25e41ee23fc79000b9945d6a50"
+      url "https://github.com/difyz9/ytb2bili-cli/releases/download/v0.3.4/ytb_0.3.4_darwin_amd64.tar.gz"
+      sha256 "8b1c6feb61b340ea75d7c860ed301b7e1fa92d610fba287fbc5319f41f13295b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/difyz9/homebrew-tap/releases/download/v0.3.3/ytb_0.3.3_linux_arm64.tar.gz"
-      sha256 "924a719b42646d4a6a3239f81d0f06d028c6dac0db4c36cae01357410daceb87"
+      url "https://github.com/difyz9/ytb2bili-cli/releases/download/v0.3.4/ytb_0.3.4_linux_arm64.tar.gz"
+      sha256 "ee291388a7c86b6b5ade3085c191bd5048f477a8ac049fd2b734d16d31f1fdb1"
     end
 
     on_intel do
-      url "https://github.com/difyz9/homebrew-tap/releases/download/v0.3.3/ytb_0.3.3_linux_amd64.tar.gz"
-      sha256 "67c9e3dfa495650f3b4bb4a60fee7db2e11120d241c435a61f4d85547b77f1cf"
+      url "https://github.com/difyz9/ytb2bili-cli/releases/download/v0.3.4/ytb_0.3.4_linux_amd64.tar.gz"
+      sha256 "0971ffdc95b2971f8936daaffe38129000ecdd66c7c9ec8a03a632c5c2bc0882"
     end
   end
 
