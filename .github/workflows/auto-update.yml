@@ -1,9 +1,11 @@
 name: Auto-update formulae
 
+
 on:
   schedule:
-    # Every day at 08:00 UTC (16:00 Beijing time).
-    - cron: "0 8 * * *"
+    # Every day at 03:00 Beijing time.
+    - cron: "0 3 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 permissions:
