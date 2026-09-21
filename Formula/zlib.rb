@@ -1,29 +1,29 @@
 class Zlib < Formula
   desc "Search and download books from Z-Library and Anna's Archive"
   homepage "https://github.com/difyz9/zlib-go"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.3/zlib-v0.1.3-darwin-arm64.tar.gz"
-      sha256 "336bb151970a53aff578f89af14128410fbfe9f8d6034e6956bbbdb3e7b80c1d"
+      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.4/zlib-v0.1.4-darwin-arm64.tar.gz"
+      sha256 "c8827227999c36ab184a4b2926d8b73205b64f2f0e68ae26f863563993364653"
     end
 
     on_intel do
-      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.3/zlib-v0.1.3-darwin-amd64.tar.gz"
-      sha256 "fc54660c110ff71b668b1dda74c07f841b3a0e9a1c4d4a7825ba88e511b467bf"
+      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.4/zlib-v0.1.4-darwin-amd64.tar.gz"
+      sha256 "c1aa42fd9c8e7396834ef7747e65b70d841e702dbe5a25d281565cecd065807b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.3/zlib-v0.1.3-linux-arm64.tar.gz"
-      sha256 "7c474ee2fcc3ace966c6431392ffc7c0f5d8438c797014f09a395fe58c6bd203"
+      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.4/zlib-v0.1.4-linux-arm64.tar.gz"
+      sha256 "cc4bce6d5f7b9853680a6d13d75c05976b71a1caf9f7ae915ef1be166e05e471"
     end
 
     on_intel do
-      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.3/zlib-v0.1.3-linux-amd64.tar.gz"
-      sha256 "cbcd4dfea34e2a40d304f9a748727ddb853cb69885821ba6b2addf02caa2a387"
+      url "https://github.com/difyz9/zlib-go/releases/download/v0.1.4/zlib-v0.1.4-linux-amd64.tar.gz"
+      sha256 "cd8efe70cc321f6524606508b6e87e6c31311b0726a0d59d025f56cc1104f92f"
     end
   end
 
