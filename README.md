@@ -4,6 +4,22 @@
 
 ## 安装
 
+## Linux 安装brew
+
+```
+# 安装linuxbrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+
+安装完成后，按提示把环境变量写入 shell（debian 默认 bash）：
+
+```
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+
 ```bash
 brew tap difyz9/homebrew-tap https://github.com/difyz9/homebrew-tap
 ```
