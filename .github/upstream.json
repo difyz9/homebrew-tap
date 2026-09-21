@@ -1,0 +1,4 @@
+{
+  "zlib": { "upstream": "difyz9/zlib-go" },
+  "ytb": { "upstream": "difyz9/ytb2bili-cli" }
+}
